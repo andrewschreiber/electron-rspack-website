@@ -11,27 +11,7 @@ const Layout = () => {
   const { page } = usePageData();
   const lang = useLang();
 
-  return (
-    <Theme.Layout
-      beforeNavTitle={<NavIcon />}
-      beforeNav={
-        <NoSSR>
-          <Announcement
-            href={
-              lang === 'en' ? ANNOUNCEMENT_URL : `/${lang}${ANNOUNCEMENT_URL}`
-            }
-            message={
-              lang === 'en'
-                ? 'Rsbuild 1.0 has been released!'
-                : 'Rsbuild 1.0 正式发布！'
-            }
-            localStorageKey="rsbuild-announcement-closed"
-            display={page.pageType === 'home'}
-          />
-        </NoSSR>
-      }
-    />
-  );
+  return <Theme.Layout beforeNavTitle={<NavIcon />} />;
 };
 
 export default {

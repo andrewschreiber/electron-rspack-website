@@ -18,7 +18,7 @@ export function Hero() {
       showStars
       onClickGetStarted={handleClickGetStarted}
       onClickLearnMore={handleClickLearnMore}
-      title="Rsbuild"
+      title="Electon-Rspack"
       subTitle={t('subtitle')}
       description={t('slogan')}
       logoUrl="https://assets.rspack.dev/rsbuild/rsbuild-logo.svg"

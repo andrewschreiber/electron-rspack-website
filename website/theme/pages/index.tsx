@@ -12,7 +12,6 @@ export function HomeLayout() {
       <Hero />
       <WhyRsbuild />
       <Benchmark />
-      <ToolStack />
       <CopyRight />
     </div>
   );

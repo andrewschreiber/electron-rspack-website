@@ -12,8 +12,8 @@
     "zh": "由 Rspack 驱动的构建工具"
   },
   "slogan": {
-    "en": "Build your web application instantly",
-    "zh": "在瞬息之间构建你的 web 应用"
+    "en": "Build your Electron application instantly",
+    "zh": "在瞬息之间构建你的 Electron 应用"
   },
   "rspackBased": {
     "en": "Rspack-based",

@@ -7,7 +7,7 @@ import pluginSitemap from 'rspress-plugin-sitemap';
 import { defineConfig } from 'rspress/config';
 import { rsbuildPluginOverview } from './theme/rsbuildPluginOverview';
 
-const siteUrl = 'https://rsbuild.dev';
+const siteUrl = 'https://electron-rspack.dev';
 
 export default defineConfig({
   plugins: [
@@ -62,7 +62,7 @@ export default defineConfig({
   root: path.join(__dirname, 'docs'),
   lang: 'en',
   base: '/',
-  title: 'Rsbuild',
+  title: 'Electon-Rspack',
   icon: 'https://assets.rspack.dev/rsbuild/favicon-128x128.png',
   logo: {
     light: 'https://assets.rspack.dev/rsbuild/navbar-logo-light.png',
@@ -101,7 +101,7 @@ export default defineConfig({
       {
         lang: 'en',
         label: 'English',
-        title: 'Rsbuild',
+        title: 'Electon-Rspack',
         description: 'The Rspack-based build tool for the web',
         editLink: {
           docRepoBaseUrl:
@@ -112,7 +112,7 @@ export default defineConfig({
       {
         lang: 'zh',
         label: '简体中文',
-        title: 'Rsbuild',
+        title: 'Electon-Rspack',
         outlineTitle: '目录',
         prevPageText: '上一页',
         nextPageText: '下一页',
@@ -133,7 +133,7 @@ export default defineConfig({
       rsbuildPluginOverview,
       pluginGoogleAnalytics({ id: 'G-L6BZ6TKW4R' }),
       pluginOpenGraph({
-        title: 'Rsbuild',
+        title: 'Electon-Rspack',
         type: 'website',
         url: siteUrl,
         image:
@@ -167,7 +167,7 @@ export default defineConfig({
         },
       ],
       appIcon: {
-        name: 'Rsbuild',
+        name: 'Electon-Rspack',
         icons: [
           {
             src: 'https://assets.rspack.dev/rsbuild/rsbuild-logo-192x192.png',

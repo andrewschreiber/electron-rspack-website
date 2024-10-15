@@ -1,4 +1,4 @@
-# Rsbuild Website
+# Electron-rspack Website
 
 This website is built with [Rspress](https://github.com/web-infra-dev/rspress), the document content can be written using markdown or mdx syntax. You can refer to the [Rspress Website](https://rspress.dev/) for detailed usage.
 

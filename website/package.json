@@ -1,6 +1,6 @@
 {
-  "name": "rsbuild-website",
-  "version": "0.6.3",
+  "name": "electron-rspack-website",
+  "version": "0.1.0",
   "private": true,
   "license": "MIT",
   "scripts": {

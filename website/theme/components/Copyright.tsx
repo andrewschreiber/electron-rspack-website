@@ -5,9 +5,17 @@ export const CopyRight = () => {
     <footer className={styles.copyRight}>
       <div className={styles.copyRightInner}>
         <div className={styles.copyRightText}>
-          <div>Copyright © 2024 ByteDance.</div>
           <div>
-            Built with{' '}
+            Built by{' '}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: 'underline' }}
+              href="https://x.com/andrewschrbr"
+            >
+              @andrewschreiber
+            </a>{' '}
+            with{' '}
             <a
               target="_blank"
               rel="noreferrer"
