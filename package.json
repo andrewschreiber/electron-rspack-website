@@ -1,5 +1,5 @@
 {
-  "name": "rsbuild-monorepo",
+  "name": "electron-rspack-monorepo",
   "private": true,
   "workspaces": {
     "packages": [
