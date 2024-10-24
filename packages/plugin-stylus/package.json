@@ -1,6 +1,6 @@
 {
   "name": "@rsbuild/plugin-stylus",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Stylus plugin for Rsbuild",
   "homepage": "https://rsbuild.dev",
   "repository": {
@@ -29,7 +29,7 @@
   "dependencies": {
     "deepmerge": "^4.3.1",
     "reduce-configs": "^1.0.0",
-    "stylus": "0.63.0",
+    "stylus": "0.64.0",
     "stylus-loader": "8.1.1"
   },
   "devDependencies": {

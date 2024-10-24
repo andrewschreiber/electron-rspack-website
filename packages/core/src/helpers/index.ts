@@ -159,7 +159,7 @@ export const getPublicPathFromCompiler = (
   return DEFAULT_ASSET_PREFIX;
 };
 
-const urlJoin = (base: string, path: string) => {
+export const urlJoin = (base: string, path: string) => {
   const [urlProtocol, baseUrl] = base.split('://');
   return `${urlProtocol}://${posix.join(baseUrl, path)}`;
 };
@@ -221,7 +221,12 @@ export function getFilename(
 ): NonNullable<FilenameConfig['js']>;
 export function getFilename(
   config: NormalizedConfig | NormalizedEnvironmentConfig,
-  type: Exclude<keyof FilenameConfig, 'js'>,
+  type: 'css',
+  isProd: boolean,
+): NonNullable<FilenameConfig['css']>;
+export function getFilename(
+  config: NormalizedConfig | NormalizedEnvironmentConfig,
+  type: Exclude<keyof FilenameConfig, 'js' | 'css'>,
   isProd: boolean,
   isServer?: boolean,
 ): string;
